@@ -1,0 +1,59 @@
+*{.....
+}
+
+.header {
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(3, 3, 3);
+    color: aliceblue;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .Murray {
+    color: gold;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    margin: 0% auto;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.heading {
+    color: gold;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    color: aliceblue;
+    text-decoration:none;
+}

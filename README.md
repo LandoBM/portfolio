@@ -2,7 +2,8 @@
 
 ## Description
 ```
-This portfolio was created to showcase my work, skills and talents for employers. My portfolio highlights my best work and the though process behind it. 
+This portfolio was created to showcase my work, skills and talents for employers. 
+My portfolio highlights my best work and the though process behind it. 
 ```
 
 ## User Story

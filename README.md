@@ -40,5 +40,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ![The portfolio webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](assests/images/Final-Portfolio%20Screenshot.png)
 
 
+## Deployment 
+```
+https://landobm.github.io/portfolio/
+```
+
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

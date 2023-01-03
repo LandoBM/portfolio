@@ -2,205 +2,90 @@
     box-sizing: border-box;
 }
 
-@media screen and (min-width:1200px){
- h1 {
-    font-size: 4rem;
- }    
+#About {
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 400px;
+    background: linear-gradient(#220080,#0084ff);   
 }
 
-body {
-    background-color: black;
-}
-
-
-
-.header {
-    padding: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgb(3, 3, 3);
-    color: aliceblue;
-    margin-top: 2%;
-    border: 2px dotted gold;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .Murray {
-    color: gold;
-}
-
-.contact nav,
-.header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-}
-.contact nav ul,
-.header nav ul {
-    list-style-type: none;
-}
-.contact nav li,
-.header nav li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-.banner {
-    position: relative;
+#Work {
+    background: linear-gradient(#0084ff, black); 
     width: 100%;
-    margin: 0% auto;
+    bottom: 0px;
+    margin-left: 0px;
+    box-sizing: border-box;
 }
 
-.banner img {
+#Workbttm {
+    background: black; 
     width: 100%;
-}
-
-.heading {
-    color: gold;
-    position: absolute;
-    top: 23%;
-    width: 100%;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-
-}
-
-main a {
-    color: aliceblue;
-    text-decoration:none;
-}
-/*
-.pictxt {
-    position: relative;
-    bottom: 30%;
-    left: 0%;
-}
-
-.pictxt-2 {
-    position: relative;
-    bottom: 30%;
-    left: 0%;
-}
-*/
-#photo {
-    padding: 0px 10px;
-    border: 4px solid navy;
-    background-color: black;
-    border-left: 4px dotted gold;
-}
-
-#photoend {
-    padding: 0px 10px;
-    border: 4px solid navy;
-    background-color: black;
-}
-
-.container-1 div,
-.container-2 div {
-    padding: 5px;
-    flex-wrap: wrap;
-}
-
-.container-1, .container-2, .container-3  {
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-    justify-content:flex-end;
-    color: aliceblue;
-} 
-
-h3 {
-   color: gold;
-   text-align: center;
-   font-size: 45px;
-   font-family:cursive;
-   font-weight: lighter;
-   margin: 0%;
+    bottom: 0px;
+    margin-left: 0px;
+    box-sizing: border-box;
 }
 
 p {
-   display: flex;
-   padding: 60px;
-   justify-content:flex-end;
-   border: 4px solid navy;
-   color: aliceblue;
-   margin-top: 0%;
-
-
+    text-align: left;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    left: 320px;
 }
-.border{
-    border-left: 4px solid gold;
-    width: 10px;
+
+h1 {
+    color: black;
+    text-align: left;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    left: 750px;
+    padding-top: 0px;
 }
-.label {
-    color: aliceblue;
+
+main {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
-    margin-left: 2%;
-    font-size: 40px;
-    font-family:cursive;
+    justify-content: center;
 }
 
-
-.box-1 {
+.project{
+    width: 500px;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: 0.2px 4px 5px black;
+    background-color: rgba(0, 0, 0, 0.932);
     position: relative;
-    bottom: 30%;
-    left: 0%;
-    font-weight: bold;
-    font-size: 40px;
+    overflow: hidden;
 }
 
-.box-2 {
-    position: relative;
-    bottom: -65%;
-    left: 0%;
-    font-weight: bold;
-    font-size: 40px;
-    color: aliceblue;
-}
-
-.box-1-ext {
-    position: relative;
-    bottom: 30%;
-    left: 0%;
-    font-size: 10px;
-    font-family:fantasy;
-}
-
-.box-2-ext {
-    position: relative;
-    top: 65%;
-    bottom: -65%;
-    left: 0%;
-    font-size: 10px;
-    font-family: fantasy;
-}
-
-.work-txt {
-    flex: 1;
+.project-info {
+    color: gold;
     display: flex;
     align-items: center;
-    justify-content: left;
-    font-size: 60px;
-    font-family: cursive;
-    color: gold;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    letter-spacing: 0.5px;
 }
 
-.contact-txt {
-    display: flex;
-    font-size: 60px;
-    color: gold;
-    font-family: cursive;
-    width: 100%
+.project-info h4{
+    margin-top: 0px;
+}
+
+
+.overview {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    padding: 1rem;
+    max-height: 100%;
+    transform: translateY(+101%);
+    transition: transform 0.3s ease-in;
+    color: black;
+}
+
+.project:hover .overview{
+    transform: translateY(0);
 }

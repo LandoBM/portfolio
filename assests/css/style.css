@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Overlock+SC&family=Poiret+One&display=swap');
+
 #landon {
     font-weight: 500px;
 }
@@ -41,16 +43,19 @@ p {
     top: 150px;
     right: 50px;
     left: 320px;
+    font-family: 'Overlock SC', cursive;
+    font-size: 20px;
+    color: black;
 }
 
 h1 {
     color: black;
     text-align: left;
     position: absolute;
-    top: 30px;
-    right: 10px;
-    left: 650px;
+    right: 500px;
     padding-top: 0px;
+    font-family: 'Poiret One', cursive;
+
 }
 
 main {
@@ -99,4 +104,14 @@ main {
 
 .project:hover .overview{
     transform: translateY(0);
+}
+
+h4{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+#c-font{
+    color: gold;
+    font-size: 25px;
+    font-family: 'Poiret One', cursive;
 }

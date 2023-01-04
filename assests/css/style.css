@@ -39,6 +39,8 @@
 
 p {
     text-align: left;
+    display: flex;
+    flex-wrap: wrap;
     position: absolute;
     top: 150px;
     right: 50px;
@@ -48,11 +50,17 @@ p {
     color: black;
 }
 
+#me {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 h1 {
     color: black;
     text-align: left;
     position: absolute;
-    right: 500px;
+    right: 0%;
+    left: 50%;
     padding-top: 0px;
     font-family: 'Poiret One', cursive;
 

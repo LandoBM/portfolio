@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+#landon {
+    font-weight: 500px;
+}
+
+.nav-item {
+    color: white
+}
+
 #About {
     margin-left: 0px;
     margin-top: 0px;
@@ -14,6 +22,7 @@
     width: 100%;
     bottom: 0px;
     margin-left: 0px;
+    margin-top: 0px;
     box-sizing: border-box;
 }
 
@@ -22,6 +31,7 @@
     width: 100%;
     bottom: 0px;
     margin-left: 0px;
+    margin-top: 0px;
     box-sizing: border-box;
 }
 
@@ -37,14 +47,15 @@ h1 {
     color: black;
     text-align: left;
     position: absolute;
-    top: 100px;
+    top: 30px;
     right: 10px;
-    left: 750px;
+    left: 650px;
     padding-top: 0px;
 }
 
 main {
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
 }

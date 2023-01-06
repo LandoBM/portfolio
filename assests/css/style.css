@@ -12,11 +12,12 @@
     color: white
 }
 
+#Photo{
+    background: linear-gradient(#220080,#0084ff);
+}
+
 #About {
-    margin-left: 0px;
-    margin-top: 0px;
-    height: 400px;
-    background: linear-gradient(#220080,#0084ff);   
+    background: #0084ff;   
 }
 
 #Work {
@@ -38,30 +39,17 @@
 }
 
 p {
-    text-align: left;
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 150px;
-    right: 50px;
-    left: 320px;
     font-family: 'Overlock SC', cursive;
     font-size: 20px;
     color: black;
-}
-
-#me {
-    display: flex;
-    flex-wrap: wrap;
+    text-align: center;
 }
 
 h1 {
+    display: flex;
+    flex-wrap: wrap;
     color: black;
-    text-align: left;
-    position: absolute;
-    right: 0%;
-    left: 50%;
-    padding-top: 0px;
+    text-align: center;
     font-family: 'Poiret One', cursive;
 
 }
@@ -71,6 +59,10 @@ main {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+main img {
+    top: 20%;
 }
 
 .project{

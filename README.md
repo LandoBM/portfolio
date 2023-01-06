@@ -37,7 +37,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Mock Up
 
-![The portfolio webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](assests/images/Final-Portfolio%20Screenshot.png)
+![The portfolio webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](assests/images/final-portfolio.png)
 
 
 ## Deployment 
